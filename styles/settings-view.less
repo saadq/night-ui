@@ -1,0 +1,85 @@
+.settings-view {
+  .btn-default {
+    background: @oc-gray-8;
+    color: @oc-gray-4;
+    &:hover {
+      background: @oc-gray-6;
+      color: @oc-gray-4;
+    }
+    &.selected {
+      background: @oc-gray-7;
+      &:hover {
+        color: @oc-gray-4;
+        background: @oc-gray-6;
+      }
+    }
+  }
+
+  .section {
+    .section-heading {
+      color: @oc-gray-6;
+    }
+  }
+  .link {
+    color: @primary-color;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .alert {
+    border: none;
+
+    .alert-info {
+    }
+  }
+
+  .config-menu {
+    background: @base-background-color;
+
+    .nav > li > a:hover {
+      background: @oc-gray-7;
+      color: @oc-gray-6;
+    }
+
+    .panels-menu {
+      li {
+        a {
+          .transition-03;
+        }
+
+        &.active {
+          a {
+            background: @oc-gray-8;
+            color: @oc-gray-6;
+          }
+        }
+      }
+    }
+  }
+
+  .package-card {
+    .transition-03;
+    background: @background-color-selected;
+    border: none;
+
+    .package-name {
+      color: @oc-gray-4;
+    }
+
+    .btn {
+      background: @oc-gray-8;
+      color: @oc-gray-5;
+
+      &:hover {
+        background: @oc-gray-7;
+        color: @oc-gray-4;
+      }
+    }
+
+    &:hover {
+      background: @background-color-highlight;
+    }
+  }
+}

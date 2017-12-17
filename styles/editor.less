@@ -1,0 +1,40 @@
+// Editor
+body {
+  .transition;
+}
+
+// Panes.
+atom-pane {
+  padding-top: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.left {
+  .tab-bar .active.tab {
+    border-top: none;
+  }
+}
+
+// Mini Editor
+// -------------------
+// Mini Editors are the "text inputs" used in find+replace or in the settings.
+atom-text-editor[mini] {
+    padding-left: 5px;
+    font-size: .9rem;
+    color: @text-color;
+    background-color: @input-background-color;
+    border-bottom: 1px solid transparent;
+
+    .placeholder-text {
+      color: @text-color-subtle;
+    }
+
+    .selection .region {
+      background-color: @background-color-selected;
+    }
+
+    .cursor {
+      display: none;
+    }
+}

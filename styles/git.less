@@ -1,0 +1,113 @@
+// Git
+// -------------------
+
+// Used to color git status
+
+.status {
+  color: @text-color;
+}
+.status-added {
+  color: @oc-green-2;
+} // green
+.status-ignored {
+  color: @text-color-subtle;
+} // faded
+.status-modified {
+  color: @oc-yellow-2;
+} // orange
+.status-removed {
+  color: @oc-red-4;
+} // red
+.status-renamed {
+  color: @text-color-info;
+} // blue
+
+.github-HunkView-header {
+  background: @oc-gray-9;
+  color: @oc-gray-6;
+}
+
+.github-HunkView-line.is-added.is-selected,
+.github-HunkView-line.is-deleted.is-selected,
+.github-HunkView-line.is-modified.is-selected {
+  background: transparent;
+}
+
+.github-FilePatchView:focus .github-HunkView-line.is-added.is-selected .github-HunkView-lineContent {
+  background: transparent;
+  color: @oc-green-1;
+}
+
+.github-FilePatchView:focus .github-HunkView-line.is-.is-selected .github-HunkView-lineContent {
+  background: transparent;
+  color: @oc-yellow-1;
+}
+
+.github-FilePatchView:focus .github-HunkView-line.is-deleted.is-selected .github-HunkView-lineContent {
+  background: transparent;
+  color: @oc-red-3;
+}
+
+.is-added .github-HunkView-plusMinus {
+  color: @oc-green-2;
+}
+
+.is-modified .github-HunkView-plusMinus {
+  color: @oc-yellow-2;
+}
+
+.is-deleted .github-HunkView-plusMinus {
+  color: @oc-red-4;
+}
+
+.github-HunkView-line.is-added .github-HunkView-lineContent,
+.github-HunkView-line.is-modified .github-HunkView-lineContent,
+.github-HunkView-line.is-deleted .github-HunkView-lineContent {
+  background-color: transparent;
+}
+
+.github-HunkView-line.is-added .github-HunkView-lineContent {
+  color: @oc-green-2;
+}
+
+.github-HunkView-line.is-modified .github-HunkView-lineContent {
+  color: @oc-yellow-2;
+}
+
+.github-HunkView-line.is-deleted .github-HunkView-lineContent {
+  color: @oc-red-4;
+}
+
+atom-text-editor .gutter .line-number.git-line-removed,
+.gutter .line-number.git-line-removed {
+  border-left: 2px solid @text-color-error;
+  padding-left: calc(0.5em - 2px);
+}
+
+atom-text-editor .gutter .line-number.git-line-removed:before,
+.gutter .line-number.git-line-removed:before {
+  content: none;
+}
+
+atom-text-editor .gutter .line-number.git-line-removed:before,
+.gutter .line-number.git-line-removed:before {
+  content: none;
+}
+
+.icon:before {
+  color: #65737e;
+}
+
+.github-StagingView-list {
+  .icon.icon-diff-removed:before {
+    color: @oc-red-4;
+  }
+
+  .icon.icon-diff-modified:before {
+    color: @oc-yellow-2;
+  }
+
+  .icon.icon-diff-added:before {
+    color: @oc-green-2;
+  }
+}
