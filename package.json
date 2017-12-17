@@ -3,13 +3,7 @@
   "theme": "ui",
   "version": "0.0.0",
   "description": "Dark, monochrome ui theme",
-  "keywords": [
-    "monochrome",
-    "dark"
-    "black",
-    "ui",
-    "theme"
-  ],
+  "keywords": ["monochrome", "dark", "black", "ui", "theme"],
   "repository": "https://github.com/saadq/night-ui",
   "license": "MIT",
   "engines": {
