@@ -16,6 +16,7 @@ $ apm install night-ui
 
 ## Related Projects
 - [Night Syntax](https://github.com/saadq/night-syntax)
+- [Night Terminal](https://github.com/saadq/night-terminal)
 
 ## Credits
 Inspiration for this theme came from [Apex](https://github.com/apex/apex-ui).
